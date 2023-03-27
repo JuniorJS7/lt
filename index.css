@@ -1,0 +1,149 @@
+/* 
+     Նկարագրություն
+     Յուրաքանչյուր բաժնի style-գրվում է տվյալ բաժնի անվանմանը համապատասխան
+     օրինակ about__selectin կամ home__button 
+     կրկնվելու հավանականությունը բացառելու նպատակով
+ */
+*{
+  padding: 0;
+  box-sizing: border-box;
+}
+/* nav-bar Css */
+.nav_bar{
+  width: 1440px;
+  height: 80px;
+  background-color:#232536;
+}
+
+
+.nav_menu{
+  display: flex;
+  justify-content:flex-end;
+  padding: 16px 48px;
+}
+.nav_bar ul{
+list-style: none;
+display: flex;
+}
+.nav_bar a{
+  color: #FFFFFF;
+  padding: 24px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  
+}
+.butt_open{
+  width: 179px;
+  height: 56px;
+  background-color:#FFFFFF;
+  color: #232536;
+  padding: 16px 48px;
+}
+.butt_open a{
+  color: black;
+}
+/* nav-bar Css */
+
+
+/* animation style */
+.transition-fade {
+    transition: 0.4s;
+    opacity: 1;
+  }
+  html.is-animating .transition-fade {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    transform: scale(0);
+    transform-origin: left;
+  }
+  .transition-wipe{
+    transition: 0.5s cubic-bezier(0, 0, 0.58, 1);
+  }
+  html.is-animating .transition-wipe {
+    transform: scaleX(1);
+  }
+  /* animation style */
+  main{
+    width: 40%;
+    margin: 5em auto;
+}
+/* css and home */
+/* css and home */
+
+/* css and blog */
+/* css and blog */
+
+/* css and blog post */
+/* css and blog post*/
+
+/* css and  about */
+/* css and  about*/
+
+/* css and  category */
+/* css and  category */
+
+/* css and Author */
+/* css and Author*/
+
+/* css and contact */
+/* css and contact */
+
+/* css and private police */
+/* css and private police */
+
+
+/* footer style */
+footer{
+  width: 1440px;
+  height: 560px;
+  background-color: #232536;
+}
+.footer__nav{
+  display: flex;
+  justify-content: flex-end;
+  padding: 59px 80px;
+}
+.footer__nav ul{
+  list-style: none;
+  display: flex;
+}
+.footer__nav a{
+  padding: 24px;
+  text-decoration: none;
+  color: #FFFFFF;
+
+}
+.footer__serch{
+  margin: auto;
+  width: 1280px;
+  height: 256px;
+  background-color: #FFFFFF;
+  opacity: 5%;
+  display: flex;
+  justify-content: center
+}
+.footer__h3{
+  width: 562px;
+  height: 92px;
+  color: #FFFFFF;
+  letter-spacing: -2px;
+}
+.footer__finish{
+  margin: auto;
+  width: 1280px;
+  height: 256px;
+  display: flex;
+}
+
+
+/* footer style */
