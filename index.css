@@ -184,3 +184,47 @@ footer{
   width: 100%
 }
 
+@media screen and (max-width:1028px) {
+  .logo{
+    padding: 0;
+  }
+  .nav_menu{
+    padding: 0;
+  }
+  .h3__fotter h3{
+    font-size: 28px;
+  }
+}
+@media screen and (max-width:768px){
+  .nav_bar a{
+    padding: 5px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center
+  }
+  .butt_open{
+    width: 90px;
+  }
+  .footer__nav a{
+    padding: 5px;
+  }
+  .h3__fotter h3{
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .footer__nav{
+    padding: 0;
+  }
+  .email__button input{
+    width: 200px;
+  }
+}
+@media screen and (max-width:450px){
+  .logo{
+    display: none;
+  }
+  .footer__nav a{
+    padding: 0px;
+    font-size: 12px;
+  }
+}
